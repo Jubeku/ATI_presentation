@@ -4,8 +4,6 @@ This repository contains an algorithm to localize rockfalls using seismic signal
 
 A [Jupyter](https://jupyter.org/) notebook is used to present the localization method. Two exemplary rockfalls which occurred at Dolomieu crater on Piton de la Fournaise volcano, La Réunion, are localized. Downloading the notebook, you can yourself explore the method, interactively pick a time window of the rockfall signal and test the sensitivity of the results in respect to certain parameters. 
 
-In case you don't have Jupyter installed or you want to run the notebook later, you can simply visualize the notebook using `nbviewer` following this [link](https://nbviewer.jupyter.org/github/Jubeku/RF_localization/blob/master/localize.ipynb).
-    
 The method is based on the comparison of observed and simulated seismic energy ratios between station pairs. In the following, the underlying numerical simulations of the seismic wave propagation are briefly introduced. 
 
 ### The simulated data used in the localization method
